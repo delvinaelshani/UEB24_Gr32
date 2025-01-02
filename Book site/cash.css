@@ -16,3 +16,30 @@ header > .navbar{
     text-decoration: underline;
     color:white;
 }
+.container{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../images/login.jpg');
+    
+    
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 2.5%;
+}
+#amount-result{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list-group-item:hover{
+    background-color: #243945;
+    color: white;
+    font-weight: bold;
+}.top-list-title{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.nav-link{
+    color:white;
+}
+audio{
+    display:none;
+}
