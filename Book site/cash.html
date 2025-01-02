@@ -6,3 +6,33 @@
         <link rel="stylesheet" href="cash.css">
     </head>
     <body>
+<div class="container" >
+        <div class="row">
+            <div class="col-4">
+                <div class="form-container">
+                    <form id="flightForm" class="custom-form">
+                        <h3>Booking flights!</h3>
+                        <label for="from">Flying from:</label>
+                        <input type="text" id="from" name="from" placeholder="Enter departure location">
+                
+                        <label for="to">Flying to:</label>
+                        <input type="text" id="to" name="to" placeholder="Enter destination">
+                
+                        <div class="row">
+                            <label for="departureDate">Departure:</label>
+                            <input type="date" id="departureDate" name="departureDate">
+                        </div>
+                
+                        <div class="row">
+                            <label for="returnDate">Return:</label>
+                            <input type="date" id="returnDate" name="returnDate">
+                        </div>
+                
+                        <div class="row">
+                            <label for="firstClass">First class (150$):</label>
+                            <div class="increment-decrement">
+                                <button type="button" onclick="ticketHandle('firstClass',false)">-</button>
+                                <input type="text" id="firstClassInput" name="firstClass" class="quantity-input" value="0" readonly>
+                                <button type="button" onclick="ticketHandle('firstClass',true)">+</button>
+                            </div>
+                        </div>
