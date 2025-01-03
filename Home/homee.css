@@ -177,3 +177,18 @@ body {
         background-repeat:no-repeat;
         background-position: center;
       }
+.slider-img3 {
+        width: 23rem;
+        height: 23rem;
+        border: 1.5rem solid;
+        border-color: rgba(0, 0, 0, 0.8);
+        border-radius: 12rem;
+        background-image: url(../images/Amalfi.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+ .img-sepia {
+        filter: sepia(5%);
+      }
+
