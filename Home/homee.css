@@ -148,4 +148,9 @@ body {
       .slider-text button:hover {
         background: #5a9de9;
       }
-  
+  .slider-box-img {
+        width: 20%;
+        height: auto;
+        padding: 0.5rem;
+        margin-right: 5rem;
+      }
