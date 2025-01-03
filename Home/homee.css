@@ -191,4 +191,19 @@ body {
  .img-sepia {
         filter: sepia(5%);
       }
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1A374D;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    padding: 9px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 25px;
+    margin-left: 50px;
+  }
 
