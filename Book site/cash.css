@@ -43,3 +43,46 @@ header > .navbar{
 audio{
     display:none;
 }
+.custom-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.custom-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.custom-form input,
+.custom-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.custom-form .increment-decrement {
+    display: block;
+    align-items: center;
+}
+
+.btnbtn-secondary, .custom-form button {
+    background-color: #1A374D;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.custom-form button:hover {
+    background-color: #0056b3;
+}
+
+.custom-form .quantity-input {
+    width: 40px;
+    text-align: center;
+}

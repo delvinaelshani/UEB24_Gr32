@@ -36,3 +36,44 @@
                                 <button type="button" onclick="ticketHandle('firstClass',true)">+</button>
                             </div>
                         </div>
+<div class="row">
+                            <label for="economy">Economy (100$):</label>
+                            <div class="increment-decrement">
+                                <button type="button" onclick="ticketHandle('economy',false)">-</button>
+                                <input type="text" id="economyInput" name="economy" class="quantity-input" value="0" readonly>
+                                <button type="button" onclick="ticketHandle('economy',true)">+</button>
+                            </div>
+                        </div>
+                        <p>Subtotal: </p>
+                        <h5>$<span id="subTotal">0</span></h5>
+                        <p>Charge 10% VAT:</p>
+                        <h5>$<span id="tax">0</span></h5>
+                        <p>Total:</p>
+                        <h5>$<span id="total">0</span></h5>
+                
+                        <button type="submit" onclick="alert('You have booked the tickets!')" class="btn btn-primary">Book now</button>
+                    </form>
+                </div>
+                </div>
+            <div class="col-8">
+                <h4 class="top-list-title">US Dollars to Other Currency</h4>
+                <form class="form-control" action="cash.html" method="post">
+                    <legend>Cash Calculator</legend>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">$</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Write amount" id="amount-in-usd">
+                        <span class="input-group-text">.00</span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" for="inputGroupSelect01">Select Currency:</label>
+                        <select class="form-select" id="inputGroupSelect01">
+                            <option selected>Choose...</option>
+                            <option value="1">Euro</option>
+                            <option value="2">Albanian Lek</option>
+                            <option value="3">Brazilian Real</option>
+                            <option value="4">Czech Koruna</option>
+                            <option value="5">Swiss Franc</option>
+                            <option value="6">Pound</option>
+                          
+                        </select>
+                    </div>
