@@ -28,3 +28,113 @@
  </style>
  </head>
 
+<body>
+    <div class="wrapper">
+      <nav class="nav">
+          <div class="nav-logo">
+            <p>Beauty Wonders.</p>
+          </div>
+          <div class="nav-menu" id="navMenu">
+              <ul>
+                  <li ><a href="../home/home.html" class="link ">Home</a></li>
+                  <li><a href="../about/about.html" class="link">About</a></li>
+                  <li class="nav-item dropdown">
+                      <a class="link" class="link nav-link dropdown-toggle link-light"  role="button" data-toggle="dropdown" aria-expanded="false" id="drop">
+                          Places
+                      </a>
+                      <ul class="dropdown-menu" style="display: none; background-color: #b0e0e6;" id="placesDropdown" >
+                          <li><a class="dropdown-item" href="../places/cappadocia.html">Cappadocia, Turkey</a></li>
+                          <li><a class="dropdown-item" href="../places/Barcelona.html">Barcelona, Spain</a></li>
+                          <li><a class="dropdown-item" href="../places/BlueEye.html">The Blue Eye, Albania</a></li>
+                          <li><a class="dropdown-item" href="../places/Italy.html">Amalfi Coast, Italy</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="../Contact/contact.html" class="link">Contact Us</a></li>
+                 
+              </ul>
+          </div>
+          <div class="nav-button">
+              <button class="btn white-btn" id="loginBtn" onclick="login()"><a class="link" href="../Log in/login-signup.html">Log in</a></button>
+              <button class="btn" id="registerBtn" onclick="register()"><a class="link" href="../Log in/login-signup.html">Sign up</a></button>
+          </div>
+          <div class="nav-menu-btn">
+              <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+          </div>
+  
+      </nav>
+  </div>
+
+
+  <div class="hero">
+            <h1 class="text-white">Contact Us</h1>
+            <p class="text-white">In the form below you can leave a comment or review for us! Every thought of our clients matters!</p>
+  </div> 
+
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 ">
+          <form class="contact-form" onsubmit="submitForm(); return false;">
+
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <label class="text-black" for="fname">First name</label>
+                  <input type="text" class="form-control" id="firstName" required>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <label class="text-black" for="lname">Last name</label>
+                  <input type="text" class="form-control" id="lname" required>
+                </div>
+              </div>
+            </div>
+        
+            <div class="form-group">
+              <label class="text-black" for="email">Email address</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+        
+            <div class="form-group">
+              <label class="text-black" for="message">Message</label>
+              <textarea name="" class="form-control" id="message" cols="30" rows="5"></textarea>
+            </div>
+            <div>
+              <keygen name="security" challenge="random_challenge"></keygen>
+            </div>
+          </form>
+            <form oninput="x.value=parseInt(a.value)+parseInt(b.value)" id="ratingForm">
+              <label for="a">Rate us:</label>
+              <input type="range" id="a" value="0">
+              <input type="number" id="b" value="0">
+              <output name="x" for="a "></output>
+              <br>
+            <button type="submit" class="btn btn-primary btnhover">Submit</button>
+            
+          </form>
+        </div>
+
+        <div class="col-lg-5 ml-auto">
+          <div class="quick-contact-item d-flex align-items-center mb-4">
+            <span class="flaticon-house"></span>
+            <address class="text">
+              <a href="https://www.google.com/maps/place/ME-Wonders+Travel/@38.6720657,-77.2701776,14z/data=!4m6!3m5!1s0x89b64d3384e19fcd:0x3e44d7853d44a7e9!8m2!3d38.671667!4d-77.2743244!16s%2Fg%2F11p5nq9sgk?hl=sq&entry=ttu" target="_blank">2061 Stargrass Ct, Woodbridge, VA 22192, SHBA</a>
+            </address>
+          </div>
+          <div class="quick-contact-item d-flex align-items-center mb-4">
+            <span class="flaticon-phone-call"></span>
+            <address class="text">
+                +17033570712
+            </address>
+          </div>
+          <div class="quick-contact-item d-flex align-items-center mb-4">
+            <span class="flaticon-mail"></span>
+            <address class="text">
+              <a href="mailto:info@mewonders.com">beautywondersstaff@gmail.com</a>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
