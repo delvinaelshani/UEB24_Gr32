@@ -98,4 +98,27 @@ body {
       padding-left: 110px;
   
     }
-  
+
+.list-unstyled.social span {
+      color: white; /* Ngjyra e bardhë e ikonave */
+    }
+    .links
+    {
+      list-style-type:none;
+    }
+    
+  .btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 14px; }
+    
+  .btn.btn-primary {
+      background: #1A374D;
+      border-color: #1A374D;
+      outline-style:solid;
+      outline-color:#a3d5fc;
+      outline-width:5px;
+     }
