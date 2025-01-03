@@ -79,3 +79,15 @@
 .nav-menu-btn{
     display: none;
 }
+.form-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 512px;
+    height: 550px;
+    overflow: hidden;
+    z-index: 2;
+   
+   
+}
