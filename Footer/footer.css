@@ -35,6 +35,11 @@
 .list-unstyled.social li a:hover {
   border-color: #3d7fb2;
 }
+
+.site-footer .inner {
+                padding-top: 0px;
+                padding-bottom: 70px;
+                background: #f8f9fa; }
   
   
   
