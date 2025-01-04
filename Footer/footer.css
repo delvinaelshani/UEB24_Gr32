@@ -1,1 +1,42 @@
+.ion-icon {
+    color: white; 
+    font-size: 24px; 
+  }
+.site-footer {
+                font-size: 14px;
+                color: #777;
+                line-height: 1.6;
+                padding-top: 30px; }
 
+.list-unstyled.social li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.list-unstyled.social li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px; 
+  border: 2px solid white;
+  border-radius: 50%; 
+  text-decoration: none;
+  transition: border-color 0.3s ease;
+}
+
+.list-unstyled.social li ion-icon {
+  font-size: 24px;
+  color: white;
+}
+
+.list-unstyled.social li a:hover {
+  border-color: #3d7fb2;
+}
+  
+  
+  
+  
+  

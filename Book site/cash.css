@@ -86,3 +86,38 @@ audio{
     width: 40px;
     text-align: center;
 }
+.drag-container {
+    width: 120px;
+    height: 55px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  table {
+    border-collapse: collapse;
+    cellspacing: 10px;
+    cellpadding: 10px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  table {
+    background-color: white;
+    margin-left:7cm;
+    margin-top:2cm;
+    align-items: center;
+    width: 400px;
+    height:auto;
+
+  }

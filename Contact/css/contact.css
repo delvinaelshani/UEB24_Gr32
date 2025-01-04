@@ -1,1 +1,205 @@
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    background: #ffffff;
+    overflow-x: hidden;
+    font-size: 14px; }
+  
+    .ion-icon {
+      color: white; 
+      font-size: 24px; 
+    }
+    
+    
+    .site-footer .list-unstyled.social li {
+    
+      display: inline-block;
+      margin-right: 10px; 
+    }
+    
+  .text-white {
+    color:white !important; 
+    background: radial-gradient(circle,#3d7fb2, #1A374D);
+  }
+  p {
+    /*kerkesa text wrapping dhe shadow*/
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    text-shadow:gray;
+    
+  }
+  
+  #fotofoto{
+    border-image-source: url(/images/korniza.jpg);
+    border-image-slice: 20 fill;
+    border-image-width: 20px;
+    border-image-outset: 0;
+    border-image-repeat: round;
+  }
+  
+  .btnhover:hover{
+    color:#1A374D;
+    background-color: #66859d;
+    
+  }
+  
+  .img-fluid {
+    border-image: url(/images/harta.png);
+    border-image-slice: 10;
+    border-image-width: 20px;
+    border-image-repeat: round;
+  
+    background-size: cover; /* Përshtat madhësinë e sfondit për të mbuluar të gjithë konteinerin */
+    background-origin: content-box; /* Vendos origjinën e sfondit në kornizë (jo në padding ose përmbajtje) */
+    background-position: center; /* Vendos pozicionin e sfondit në qendër */
+  
+    position: relative;
+  }
+  
+  h6
+  {
+    background: linear-gradient(45deg,#3d7fb2, white);
+  }
+  
+  h1, .h1 {
+    font-family: "Source Serif Pro", serif;
+  }
+  .text a
+  {
+    color:#1A374D;
+  
+  }
+  .hero {
+      background-color: #1A374D;
+      height:50%;
+      text-align: center;
+      padding:100px;
+  }
+  
+  .untree_co-section 
+  {
+      padding: 40px 0; 
+      margin-left: 0;
+      margin-right: 0;
+  }
+  .untree_co-section label
+  {
+    font-size: 17px;
+  
+  }
+     .content-left {
+      text-align: left;
+      margin-right: auto;
+      margin-left: 0;
+    }
+    
+    .content-right {
+      text-align: left;
+      padding-left: 110px;
+  
+    }
 
+.list-unstyled.social span {
+      color: white; /* Ngjyra e bardhë e ikonave */
+    }
+    .links
+    {
+      list-style-type:none;
+    }
+    
+  .btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 14px; }
+    
+  .btn.btn-primary {
+      background: #1A374D;
+      border-color: #1A374D;
+      outline-style:solid;
+      outline-color:#a3d5fc;
+      outline-width:5px;
+     }
+
+  .form-control, .custom-select {
+    
+    border: 2px solid #e9ecef;
+    font-size: 16px;
+    height: 45px; }
+  
+  .section-title {
+            position: relative;
+            padding-bottom: 20px;
+            display: inline-block; }
+  
+            .section-title:before {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              width: 30px;
+              height: 2px;
+              background: #1A374D; }
+  
+  .quick-contact-item [class*="flaticon-"] {
+                  font-size: 2rem;
+                  display: inline-block;
+                  width: 80px;
+                  height: 80px;
+                  flex: 0 0 80px;
+                  margin-right: 30px;
+                  border-radius: 50%;
+                  outline-style: dotted;
+                  outline-width: 2px;
+                  outline-color:#e9ecef;
+                  border: 2px dotted #e9ecef;
+                  text-align: center;
+                  position: relative;}
+  .quick-contact-item [class*="flaticon-"]:before {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  -webkit-transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%); }
+                  
+  .quick-contact-item .text {
+                  font-size: 18px; }    
+  
+                  
+  .btn {
+                  padding-top: 12px;
+                  padding-bottom: 12px;
+                  padding-left: 30px;
+                  padding-right: 30px;
+                  border-radius: 30px;
+                  font-size: 14px; }
+  .btn.btn-primary {
+                  background: #1A374D;
+                  outline-color: #1A374D; }
+  .site-footer {
+                  font-size: 14px;
+                  color: #777;
+                  line-height: 1.6;
+                  padding-top: 30px; }
+                  /* Stili për ikonat me qender të rrethave */
+  .list-unstyled.social li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .list-unstyled.social li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Madhësia e rrethit */
+    height: 50px; /* Madhësia e rrethit */
+    border: 2px solid white; /* Korniza e rrethit */
+    border-radius: 50%; /* Forma e rrethit (bordi i rrumbulluar) */
+    text-decoration: none;
+    transition: border-color 0.3s ease;
+  }
