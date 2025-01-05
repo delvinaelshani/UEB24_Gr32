@@ -62,3 +62,56 @@
     margin-bottom: 45px;
     font-weight: bold;
   }
+
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  body{
+      background-color: white;
+  }
+
+  .circle{
+    list-style-type: circle;
+  }
+  /*DISCOVER*/
+  .place-promotion{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/backgroundfinal.jpg);
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(18, 9, 86);
+    font-weight: bold;
+  
+  }
+  .place-info btn{
+    color: rgb(255, 255, 255);
+  }
+  .card-img-top{
+    border-radius: 25%;
+    height: 250px ;
+    width: 300px ;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    position: relative;
+    left: 60px;
+    top: -80px;
+    object-fit: cover;
+    
+  }
+  .card{
+    border-radius: 0;
+    cursor: pointer;
+    margin-top: 100px ;
+  }
+  .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  
+  }
+  .card-body{
+    margin-top: -50px;
