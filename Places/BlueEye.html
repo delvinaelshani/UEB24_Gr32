@@ -19,3 +19,38 @@
   
 </head>
 <body>
+
+    <div class="wrapper">
+      <nav class="nav">
+          <div class="nav-logo">
+              <p>Beauty Wonders.</p>
+          </div>
+          <div class="nav-menu" id="navMenu">
+              <ul>
+                <li ><a href="../home/home.html" class="link ">Home</a></li>
+                <li><a href="../about/about.html" class="link">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="active link" class="link nav-link dropdown-toggle link-light"  role="button" data-toggle="dropdown" aria-expanded="false" id="drop">
+                        Places
+                    </a>
+                    <ul class="dropdown-menu" style="display: none; background-color: #b0e0e6;" id="placesDropdown" >
+                        <li><a class="dropdown-item" href="../places/cappadocia.html">Cappadocia, Turkey</a></li>
+                        <li><a class="dropdown-item" href="../places/Barcelona.html">Barcelona, Spain</a></li>
+                        <li><a class="dropdown-item" href="../places/BlueEye.html">The Blue Eye, Albania</a></li>
+                        <li><a class="dropdown-item" href="../places/Italy.html">Amalfi Coast, Italy</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="../Contact/contact.html" class="link">Contact Us</a></li>
+                     
+                  </ul>
+              </div>
+              <div class="nav-button">
+                <button class="btn white-btn" id="loginBtn" onclick="login()"><a class="link" href="../Log in/login-signup.html">Log in</a></button>
+                <button class="btn" id="registerBtn" onclick="register()"><a class="link" href="../Log in/login-signup.html">Sign up</a></button>
+              </div>
+              <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+    
+        </nav>
+    </div>
