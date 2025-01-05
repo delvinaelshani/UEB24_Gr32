@@ -72,8 +72,34 @@
                 -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
                }
+.site-footer .widget .links li {
+                display: block;
+                margin-bottom: 10px; }
+.site-footer .widget .links li a {
+                color: #000000; }
+.site-footer ul.quick-info li {
+                position: relative;
+                padding-left: 30px; }
+.site-footer ul.quick-info li:before {
+                  left: 0;
+                  position: absolute;
+                  font-family: 'icomoon';
+                  color: #6998AB; }
+.site-footer ul.quick-info li.email:before {
+                    content: "\f0e0"; }
+.site-footer ul.quick-info li.phone:before {
+                    content: "\f095"; }
+.site-footer ul.quick-info li.address:before {
+                    content: "\e8b4"; }
+.site-footer .list-unstyled.social li {
+  display: inline-block;
+  margin-right: 10px; 
+                    }
+.ion-icon {
+  color: white; 
+  font-size: 24px; 
+                    }
 
-  
   
   
   
