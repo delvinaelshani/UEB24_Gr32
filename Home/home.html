@@ -294,7 +294,18 @@
       </div>
 </footer>
 <script>
-    
+  $(document).ready(function() {
+ // left slide button
+ $('.slider-btn-center').click(function(){
+        $('.slider-box-left').animate({left:'-100%'});
+        $('.slider-box').animate({right:'0'});
+        });
+         // left slide button mobile
+         $('.slider-btn-center-fixed').click(function(){
+        $('.slider-box-left').animate({left:'-100%'});
+        $('.slider-box').animate({right:'0'});
+        });
+  });
 </script>
 
     
