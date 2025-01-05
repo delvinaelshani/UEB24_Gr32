@@ -115,3 +115,72 @@
   }
   .card-body{
     margin-top: -50px;
+
+}
+  .bi{
+    font-size: 25px;
+  }
+  @media only screen and (max-width: 600px) {
+    .card-img-top{
+        
+      left: 48px;
+     
+  }
+  }
+
+  .package-list {
+    margin-bottom: 40px;
+    
+  }
+  
+  .package-list > li:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  
+  .package-card .card-banner img {
+    width:10.5cm;
+    height:10.5cm; 
+    
+  }
+  
+  .package-card {
+    background: #f5f5f5;
+    overflow: hidden;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1.3fr 1.5fr 1fr;
+    
+  }
+  
+  .package-card .card-banner {
+    height: 100%;
+   
+  }
+  
+  .package-card .card-content {
+    padding: 40px;
+    max-height: 350px;
+   
+  }
+  
+  .package-card .card-price {
+    display: grid;
+    place-content: center;
+  }
+  
+  .package-card .card-price .wrapper {
+    margin-bottom: 15px;
+  }
+  
+    
+  li{
+      list-style-type: none;
+      text-align: left;
+  }
+  
+  .btn{
+    margin-bottom: 25px;
+    background-color: #1A374D;
+  }
+  
+
