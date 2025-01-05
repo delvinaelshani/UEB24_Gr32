@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.places{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/Spain1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .places .content img{
+    border-radius: 50%;
+    border: 2px solid #000; 
+    width: 400px; 
+    height: 400;
+  }
+  .text{
+    width:550px;
+    max-width: 100%;
+    padding: 0 10px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .content{
+    width:1280px;
+    max-width: 95%;
+    margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+ .text header{
+    color:black;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  .text p{
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    }
+  .text ul{
+    color: black;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+  }
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  body{
+      background-color: white;
+  }
+  
+  .circle{
+    list-style-type: circle;
+  }
+
+.place-promotion{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/discoverbarcelona.jpg');
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .place-info{
+    color:white;
+  }
+  .place-info btn{
+    color: aliceblue;
+  }
+
