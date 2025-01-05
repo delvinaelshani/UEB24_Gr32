@@ -268,4 +268,17 @@
 
       person.displayGreeting();
     }
-  function Person(f
+  function Person(firstName, lastName) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+
+      this.displayGreeting = function() {
+        var greeting = 'Përshëndetje';
+
+        if (this.firstName !== '') {
+          greeting += ' ' + this.firstName;
+        }
+
+        if (this.lastName !== '') {
+          greeting += ' ' + this.lastName;
+        }
