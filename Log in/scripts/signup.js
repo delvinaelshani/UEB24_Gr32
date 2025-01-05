@@ -19,8 +19,8 @@ function login() {
   y.style.right = "-520px";
   a.className += " white-btn";
   b.className = "btn";
-  x.style.opacity = 1;
-  y.style.opacity = 0;
+  x.style.opacity = 0;
+  y.style.opacity = 1;
 }
 
 function register() {
