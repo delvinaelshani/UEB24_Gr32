@@ -45,4 +45,114 @@
             </div>
     
         </nav>
+        
+<!----------------------------- Form box ----------------------------------->    
+<div class="form-box">
+        
+    <!------------------- login form -------------------------->
+
+    <div class="login-container" id="login">
+        <div class="top">
+            <span>Don't have an account? <a href="#" onclick="register()">Sign Up</a></span>
+            <header>Login</header>
+        </div>
+        <form  onsubmit="validateform()" id="login-form"></form>
+        <div class="input-box">
+
+            <input type="text" id="username" class="input-field" placeholder="Username or Email">
+           
+            <i class="bx bx-user"></i>
+        </div>
+
+        <div class="input-box">
+
+            <input type="password" id="password" class="input-field" placeholder="Password">
+            <i class="bx bx-lock-alt"></i>
+            <p id="login-error-msg" style="opacity:0;">Your username or password is wrong!</p>
+        </div>
+        <div class="input-box">
+            <input type="submit" class="submit" id="login-form-submit" value="Sign In">
+        </div>
+        <div class="two-col">
+            <div class="one">
+                <input type="checkbox" id="login-check">
+                <label for="login-check"> Remember Me</label>
+            </div>
+            <div class="two">
+                <label><a href="#">Forgot password?</a></label>
+            </div>
+        </div>
+    </form>
+    </div>
+
+        
+       <!------------------- registration form -------------------------->
+       <div class="register-container" id="register">
+        <div class="top">
+            <span>Have an account? <a href="#" onclick="login()">Login</a></span>
+            <header>Sign Up</header>
+        </div>
+        <div class="two-forms">
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Firstname">
+                <i class="bx bx-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Lastname">
+                <i class="bx bx-user"></i>
+            </div>
+        </div>
+        <div class="input-box">
+            <input type="text" class="input-field" placeholder="Email">
+            <i class="bx bx-envelope"></i>
+        </div>
+        <div class="input-box">
+            <input type="password" class="input-field" id= "password1" placeholder="Password">
+           
+            <i class="bx bx-lock-alt"></i>
+            <input class="input-field" type="password" name="confirm_password" id="confirm_password" class="input" required placeholder="Confirm Password">
+            <i class="bx bx-lock-alt"></i>
+            <p id="signup-error-msg" style="opacity:0;">Your passwords don't match.</p>
+        </div>
+        <div class="input-box">
+            
+            <input type="button" class="submit " onclick=" executeTwoEvents() " id="signup-form-submit" value = "Sign Up">
+        </div>
+        <div class="two-col">
+            <div class="one">
+                <input type="checkbox" id="register-check">
+                <label for="register-check"> Remember Me</label>
+            </div>
+            <div class="two">
+                <label><a href="PrivacyPolicy.html">Terms & conditions</a></label>
+            </div>
+        </div>
+    </div>
+</div>
+</div>   
+<script type="text/javascript" src="scripts/signup.js"></script>
+<script src="scripts/login.js"></script>
+<script>
+    function executeTwoEvents() {
+        // Ekzekuto eventin e parë
+        checkpassword();
+
+        // Ekzekuto eventin e dytë
+        passwordlenght()
+    }
+    
+    function passwordlenght() {
+        var password = document.getElementById("password1").value;
+        if (password.length < 8) {
+            console.warn("Fjalëkalimi duhet të ketë të paktën 8 karaktere.");
+            // Mund të shtoni kod për të ndryshuar pamjen e mesazhit ose ndonjë veprim shtesë këtu
+        } else {
+            console.log("Fjalëkalimi është i vlefshëm. Mund të vazhdoni me regjistrimin.");
+            // Mund të vazhdoni me kodi për regjistrim ose veprime të tjera
+        }
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
           
