@@ -35,6 +35,44 @@
 .list-unstyled.social li a:hover {
   border-color: #3d7fb2;
 }
+
+.site-footer .inner {
+                padding-top: 0px;
+                padding-bottom: 70px;
+                background: #f8f9fa; }
+.site-footer .inner.first {
+                padding-top: 80px; }
+.site-footer a {
+                color: #000000; }
+
+.site-footer .widget {
+                margin-bottom: 30px; }
+.site-footer .widget h3 {
+                font-size: 14px;
+                margin-bottom: 20px;
+                color: #000000;
+                font-family: "Inter", sans-serif; }
+.site-footer .widget .social li {
+                display: inline-block; }
+.site-footer .widget .social li a {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background: #1A374D;
+                display: inline-block;
+                position: relative;
+                color: #ffffff;
+                }
+.site-footer .widget .social li a span {
+                font-size: 16px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+               }
+
   
   
   

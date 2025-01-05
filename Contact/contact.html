@@ -240,3 +240,45 @@
        </div>
      </div>
    </div>
+<div class="inner dark">
+     <div class="container">
+       <div class="row text-center">
+         <div class="col-md-8 mb-3 mb-md-0 mx-auto">
+           <p>&copy; Copyright 2024 - Grupi 20</p>
+         </div>
+         
+       </div>
+     </div>
+   </div>
+ </div>
+
+      <script src="../Contact/contact.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="../menubar/menubar.js"></script>
+    
+  
+
+<script>
+   function submitForm() {
+      var firstName = document.getElementById('firstName').value.trim();
+      var lastName = document.getElementById('lname').value.trim();
+
+      var person = new Person(firstName, lastName);
+
+      person.displayGreeting();
+    }
+  function Person(firstName, lastName) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+
+      this.displayGreeting = function() {
+        var greeting = 'Përshëndetje';
+
+        if (this.firstName !== '') {
+          greeting += ' ' + this.firstName;
+        }
+
+        if (this.lastName !== '') {
+          greeting += ' ' + this.lastName;
+        }
