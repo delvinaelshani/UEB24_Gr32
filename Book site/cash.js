@@ -39,3 +39,25 @@ function ticketInput (product) {
     const ticketCount = parseInt (ticketInput.value);
     return ticketCount;
 }
+
+function allowDrop(ev) {
+    ev.preventDefault();
+  }
+
+  function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+  }
+
+  function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+
+    // Play audio when dropping an image
+    playAudio();
+  }
+
+  function playAudio() {
+    var audio = new Audio('Cash Register (Kaching) - Sound Effect (HD).mp3'); // Replace 'your-audio-file.mp3' with the actual file path or URL
+    audio.play();
+  }
