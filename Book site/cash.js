@@ -58,6 +58,6 @@ function allowDrop(ev) {
   }
 
   function playAudio() {
-    var audio = new Audio('Cash Register (Kaching) - Sound Effect (HD).mp3'); // Replace 'your-audio-file.mp3' with the actual file path or URL
+    var audio = new Audio('Cash Register (Kaching) - Sound Effect (HD).mp3'); 
     audio.play();
   }
