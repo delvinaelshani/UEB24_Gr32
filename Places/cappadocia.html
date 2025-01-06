@@ -18,7 +18,7 @@
     <title>BeautyWonders</title>
   
 </head>
-    <body>
+<body>
   <div class="wrapper">
     <nav class="nav">
         <div class="nav-logo">
@@ -26,23 +26,13 @@
         </div>
         <div class="nav-menu" id="navMenu">
           <ul>
-               <ul>
-                        <li class="circle">Embark on mesmerizing hot air balloon rides over the surreal landscapes.</li>
-                        <li class="circle">Explore the ancient cave churches of Göreme Open-Air Museum.</li>
-                        <li class="circle">Immerse yourself in the rich culture through local craft shops and markets.</li>
-                        <li class="circle">Hike or horseback ride through the breathtaking valleys and trails.</li>
-                     </ul>
-            </div>
-        </div>
-</header>
-
             <li ><a href="../home/home.html" class="link ">Home</a></li>
             <li><a href="../about/about.html" class="link">About</a></li>
             <li class="nav-item dropdown">
                 <a class="active link" class="link nav-link dropdown-toggle link-light"  role="button" data-toggle="dropdown" aria-expanded="false" id="drop">
                     Places
                 </a>
-  <ul class="dropdown-menu" style="display: none; background-color: #b0e0e6;" id="placesDropdown" >
+                <ul class="dropdown-menu" style="display: none; background-color: #b0e0e6;" id="placesDropdown" >
                   <li><a class="dropdown-item" href="../places/cappadocia.html">Cappadocia, Turkey</a></li>
                   <li><a class="dropdown-item" href="../places/Barcelona.html">Barcelona, Spain</a></li>
                   <li><a class="dropdown-item" href="../places/BlueEye.html">The Blue Eye, Albania</a></li>
@@ -53,11 +43,15 @@
              
           </ul>
       </div>
-        <div class="nav-button">
+      <div class="nav-button">
         <button class="btn white-btn" id="loginBtn" onclick="login()"><a class="link" href="../Log in/login-signup.html">Log in</a></button>
         <button class="btn" id="registerBtn" onclick="register()"><a class="link" href="../Log in/login-signup.html">Sign up</a></button>
       </div>
-         </nav>
+      <div class="nav-menu-btn">
+          <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+      </div>
+
+    </nav>
 </div>
 <header class="places">
         <div class="content">
@@ -72,17 +66,17 @@
                      whispers of centuries past. 
                      In Cappadocia you can:
                 </p>
-      <div class="nav-menu-btn">
-          <i class="bx bx-menu" onclick="myMenuFunction()"></i>
-      </div>
-                 <ul>
+                     <ul>
                         <li class="circle">Embark on mesmerizing hot air balloon rides over the surreal landscapes.</li>
                         <li class="circle">Explore the ancient cave churches of Göreme Open-Air Museum.</li>
                         <li class="circle">Immerse yourself in the rich culture through local craft shops and markets.</li>
                         <li class="circle">Hike or horseback ride through the breathtaking valleys and trails.</li>
                      </ul>
             </div>
-            <div class="container text-center py-5">
+        </div>
+</header>
+
+<div class="container text-center py-5">
         <h2 >Places</h2>
         
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
@@ -94,9 +88,7 @@
                     <p class="card-text">Cappadocia</p>
                     <h3 style="text-align: center; color: #1A374D;; font-size: 30px;">379.99&#36;</h3>
                   </div>
-        </div>
-</header>
- <div class="d-flex justify-content-evenly p-4">
+                  <div class="d-flex justify-content-evenly p-4">
                     <ion-icon name="star" style="color:gold"></ion-icon>
                     <ion-icon name="star" style="color:gold"></ion-icon>
                     <ion-icon name="star" style="color:gold"></ion-icon>
@@ -108,7 +100,7 @@
                 </div>
                 </div>
               </div>
- <div class="col">
+            <div class="col">
               <div class="card">
                 <img src="../images/cavusin.jpg" class="card-img-top" alt="Uchisar Castle pic">
                 <div class="card-body">
@@ -123,7 +115,7 @@
                     <ion-icon name="star" style="color:gold"></ion-icon>
                     <ion-icon name="star" style="color:gold"></ion-icon>
                 </div>  
-                   <div>
+                <div>
                   <button class="btn btn-secondary"><a class="book" target="_blank" href="https://www.getyourguide.com/-l1400/?cmp=ga&ps_theme=top_sights&cq_src=google_ads&cq_cmp=15508255651&cq_con=132581188204&cq_term=cappadocia%20best%20places%20to%20visit&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15508255651&adgroup_id=132581188204&target_id=kwd-1009670533847&loc_physical_ms=1028594&match_type=b&ad_id=628213086435&keyword=cappadocia%20best%20places%20to%20visit&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wbXeWLIvh4X8wcdH6PD0zt8_hOqRnsrV2cge9dPp1LC1Wfyutj8DWcaAqk7EALw_wcB">See more</a></button>
                 </div>
               </div>
@@ -143,7 +135,7 @@
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
               </div>
-<div>
+              <div>
                 <button class="btn btn-secondary"><a class="book" target="_blank" href="https://www.getyourguide.com/-l1400/?cmp=ga&ps_theme=top_sights&cq_src=google_ads&cq_cmp=15508255651&cq_con=132581188204&cq_term=cappadocia%20best%20places%20to%20visit&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=15508255651&adgroup_id=132581188204&target_id=kwd-1009670533847&loc_physical_ms=1028594&match_type=b&ad_id=628213086435&keyword=cappadocia%20best%20places%20to%20visit&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wbXeWLIvh4X8wcdH6PD0zt8_hOqRnsrV2cge9dPp1LC1Wfyutj8DWcaAqk7EALw_wcB">See more</a></button>
                 </div>
              </div>
@@ -168,7 +160,8 @@
         </div>
       </div>
     </section>
-<br></br>
+
+    <br></br>
     <br></br>
     <br></br>
     <br></br>
@@ -278,7 +271,8 @@
             </div>
             
     </div>
-  <!--PACKAGES-->
+
+    <!--PACKAGES-->
 
     <br></br>
     <br></br>
@@ -338,7 +332,8 @@
                   </ul>
 
                 </div>
- <div class="card-price">
+
+                <div class="card-price">
 
                   <div class="wrapper">
 
@@ -400,7 +395,8 @@
                         <p class="text">greentour@gmail.com</p>
                       </div>
                     </li>
-<li class="card-meta-item">
+
+                    <li class="card-meta-item">
                       <div class="meta-box">
                         <a href="https://www.google.com/maps/place/Cappadocia,+T%C3%BCrkiye/@38.3695135,33.7477351,8z/data=!3m1!4b1!4m6!3m5!1s0x14d6025c679e1679:0xf9178b7341dc5e49!8m2!3d38.6586639!4d34.8531604!16zL20vMGtwZ24?entry=ttu" target="_blank"><ion-icon name="location"></ion-icon></a>
 
@@ -466,7 +462,8 @@
                         <p class="text">12/01/2024 <i><del>2:00PM</del></i> 2:30PM</p>
                       </div>
                     </li>
-<li class="card-meta-item">
+
+                    <li class="card-meta-item">
                       <div class="meta-box">
                         <a href="mailto: greentour@gmail.com"><ion-icon name="people"></ion-icon></a>
 
@@ -568,7 +565,7 @@
         <div class="container">
           <div class="row text-center">
             <div class="col-md-8 mb-3 mb-md-0 mx-auto">
-              <p>&copy; Copyright 2025 - Grupi 32</p>
+              <p>&copy; Copyright 2024 - Grupi 20</p>
             </div>
             
           </div>
