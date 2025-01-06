@@ -65,7 +65,7 @@
   height: 400px;
   background-image: url(../images/backgroundd2.jpg);
   background-size: cover;
-  background-positon: center;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,7 +162,7 @@
 
 li{
   list-style-type: none;
-  text-aligin: left;
+  text-align: left;
 }
 
 .btn{

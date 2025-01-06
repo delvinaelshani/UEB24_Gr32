@@ -99,8 +99,8 @@ audio{
 
   table {
     border-collapse: collapse;
-    cellspacing: 10px;
-    cellpadding: 10px;
+    border-collapse: separate; 
+    border-spacing: 10px;
   }
 
   table, th, td {
