@@ -1,4 +1,4 @@
-onst social_media = ["facebook", "twitter", "googleplus", "linkedin"];
+const social_media = ["facebook", "twitter", "googleplus", "linkedin"];
 console.log(social_media[0]);
 console.log(social_media[1]);
 console.log(social_media[2]);
